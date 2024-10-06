@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JavaScript</h1>
+    <button onclick="handover()">Click ME1</button>
+    <br><br>
+    <button onclick="showMe()">Click ME</button><br>
+    <h1 id="display11"></h1>
+
+    <input id="input1" type="text" onchange="onChange()"><br><br>
+
+
+    <div onmouseover="onMouseOver()" onmouseout="OnMouseOut()" style="height: 200px; width: 200px; background-color: red;"></div>
+    <input id="input2"  type="text" onkeyup="onKeyUp()" onkeydown="onKeyDown()" onkeypress="onKeyPress()"><br><br>
+
+     <div class="jstask1" style="border: 1px solid black; padding: 10px;">
+        <input id="STname" type="text" placeholder="Studan name"><br><br>
+        <input id="STmark" type="text" placeholder="Mark"><br><br>
+        <button onclick="ris()" type="submit">Submit</button><br>
+        <h1 id="jstx"></h1>
+
+    </div><br><br>
+
+    <div class="form">
+        <input onkeyup="onChangetexterror()" id="form-input" type="text">1<br>
+        <label id="error" ></label>
+
+    </div><br><br>
+    
+
+    
+    <div class="comph">
+        <div  class="sd" >
+        <img onmouseout="OnMouseOut()"  id="ph1" src="/assets/chat-c-1.png" alt="">
+        <img onmouseover="OnMouseover()"   id="ph2" src="/assets/chat-c.png" alt="">
+    </div>
+
+    </div>
+
+
+    <!-- interal Script -->
+    <script>
+        console.log('Run App..!')
+    </script>
+
+    <!-- Extranal Script -->
+     <script src="index.js"></script>
+</body>
+</html>

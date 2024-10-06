@@ -1,0 +1,36 @@
+.static{
+    /* position: static; */
+    top: 100px;
+}
+
+.relative {
+    position: relative;
+    /* top: 150px; */
+}
+.absolute {
+    position: absolute;
+    background-color: yellow;
+    right: 0;
+   
+}
+
+.sticky{
+    background-color: aqua;
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(119, 119, 119);
+    position: sticky;
+    top: 10px;
+    z-index: 1;
+}
+.fixed{
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    border-radius: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}

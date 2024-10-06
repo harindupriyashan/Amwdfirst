@@ -1,0 +1,32 @@
+.form{
+    width: 200px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+#form-input{
+    margin-top: 35px;
+    margin-left: 10px;
+    
+}
+.comph{
+   
+    width: 800px;
+    height: 900px;
+
+}
+
+#ph1{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+    
+}
+#ph2{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    
+}

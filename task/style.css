@@ -1,0 +1,40 @@
+.com1{
+    background-color: #095bcc;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+
+}
+
+.beyour{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    padding-top: 10px;
+    font-size: 30px;
+    
+        
+}
+
+.task{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #fff;
+    
+}
+.com-b{
+
+    border-radius: 30px;
+    height: 45px;
+    width: 200px;
+    border: 0;
+    margin: 10px;
+    background: #fff;
+    
+
+
+    
+    
+}
