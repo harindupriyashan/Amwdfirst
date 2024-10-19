@@ -440,10 +440,10 @@ function ris() {
     let re55 = ''
     if (mark > 60) {
          
-        re55 = name + " Passed...!" ; 
+        re55 = name +  " Passed...!" ; 
             //   document.getElementById("jstx").style.color = 'green'
     } else {
-        re55  = name + " Feil..";
+        re55  = name +  " Feil..";
         // document.getElementById("jstx").style.color = 'blue'
     }
     // return re55
